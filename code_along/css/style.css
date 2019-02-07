@@ -1,0 +1,71 @@
+/* This is where we will be writing all of your styles */
+body {
+  text-align: left;
+  background-color: #b3cccc;
+  color: #33334d;
+  font-family: "lato", sans-serif;
+}
+h1{
+ text-align: left;
+ text-transform: normal;
+ letter-spacing: 1px;
+ text-decoration: bold;
+ font-family: "lato", sans-serif;
+}
+
+
+h2{
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+}
+
+img {
+  max-width: 20%;
+  width: 100%;
+}
+.mammals {
+  color: red;
+
+}
+#firstList {
+  background-color: darkblue;
+
+}
+.birds {
+  color: blue;
+
+}
+
+.fish {
+  color: orange;
+
+}
+#secondList {
+  background-color: gray;
+
+}
+li {
+  width: 15%;
+  height: 300px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  text-align: center;
+  padding: 30px 15px;
+  margin-top: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+li:hover {
+
+  opacity: 0.5;
+}
+
+ul {
+
+  text-align: center;
+  padding: 300px
+}
